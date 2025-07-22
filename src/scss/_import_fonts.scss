@@ -1,0 +1,52 @@
+//? offline fonts
+
+//? Gilroy
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/gilroy/Gilroy-Medium.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/gilroy/Gilroy-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/gilroy/Gilroy-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+//? Chronicle Display
+@font-face {
+  font-family: "Chronicle Display";
+  src: url("../assets/fonts/chronicle_display/ChronicleDisplay-Semibold.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chronicle Display";
+  src: url("../assets/fonts/chronicle_display/ChronicleDisplay-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+//? font weights variables
+$thin: 100;
+$extralight: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$extrabold: 800;
+$black: 900;
+$extrablack: 950;

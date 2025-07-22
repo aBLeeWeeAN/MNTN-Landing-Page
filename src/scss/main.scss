@@ -1,0 +1,17 @@
+@import "./css_reset";
+
+@import "./_import_fonts";
+@import "./_colors.scss";
+
+@import "./generic.scss";
+
+@import "./sections/_header.scss";
+@import "./sections/_hero.scss";
+@import "./sections/_get_started.scss";
+
+body {
+  // padding-top: 64px;
+  // padding-bottom: 120px;
+
+  background-color: $background-color;
+}
