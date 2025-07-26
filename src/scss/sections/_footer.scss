@@ -1,0 +1,97 @@
+.footer-content {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  padding-bottom: 120px;
+
+  .logo-block {
+    &__slogan {
+      padding-top: 24px;
+      width: 300px;
+
+      font-family: "Gilroy", sans-serif;
+      font-weight: $bold;
+      font-size: 18px;
+
+      line-height: 32px;
+      letter-spacing: 0;
+
+      text-align: left;
+
+      color: $weib-color;
+    }
+  }
+
+  .copyright {
+    padding-top: 122px;
+
+    font-family: "Gilroy", sans-serif;
+    font-weight: $medium;
+    font-size: 18px;
+
+    line-height: 32px;
+    letter-spacing: 0;
+
+    color: $weib-color;
+    opacity: 0.5;
+
+    &__link {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .footer-nav-block {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    width: 566px;
+
+    .footer-nav-list {
+      font-family: "Gilroy", sans-serif;
+
+      line-height: 32px;
+      letter-spacing: 0;
+
+      &__title {
+        font-weight: $bold;
+        font-size: 24px;
+
+        color: $accent-color;
+
+        padding-bottom: 24px;
+      }
+
+      &__list {
+      }
+
+      &__item {
+        font-weight: $medium;
+        font-size: 18px;
+
+        color: $weib-color;
+
+        padding-bottom: 16px;
+      }
+
+      &__item:last-child {
+        padding-bottom: 0;
+      }
+
+      &__link {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
