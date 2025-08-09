@@ -7,6 +7,14 @@
   justify-content: space-between;
 
   .social-networks-links {
+    // left: 0;
+    // top: 0;
+
+    margin-left: -396px;
+    position: fixed;
+    // margin-top: 0 auto;
+    margin-top: 72px;
+
     display: flex;
     flex-direction: column;
 
@@ -22,7 +30,7 @@
     &__text {
       font-family: "Gilroy", sans-serif;
       font-weight: $bold;
-      color: $weib-color;
+      color: $primary-color;
       font-size: 18px;
 
       letter-spacing: 0;

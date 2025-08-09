@@ -20,7 +20,7 @@
 
       text-align: left;
 
-      color: $weib-color;
+      color: $primary-color;
     }
   }
 
@@ -34,7 +34,7 @@
     line-height: 32px;
     letter-spacing: 0;
 
-    color: $weib-color;
+    color: $primary-color;
     opacity: 0.5;
 
     &__link {
@@ -76,7 +76,7 @@
         font-weight: $medium;
         font-size: 18px;
 
-        color: $weib-color;
+        color: $primary-color;
 
         padding-bottom: 16px;
       }

@@ -1,0 +1,30 @@
+.icon {
+  width: auto;
+  height: auto;
+
+  aspect-ratio: 1 / 1;
+
+  color: inherit;
+
+  //? ICOS SIZES
+  &--20 {
+    width: 20px;
+  }
+
+  &--24 {
+    width: 24px;
+  }
+
+  //? ICON COLORS
+  &--color-primary {
+    color: $primary-color;
+  }
+
+  &--color-accent {
+    color: $accent-color;
+  }
+
+  &--inline {
+    display: inline;
+  }
+}

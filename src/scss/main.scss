@@ -1,18 +1,33 @@
-@import "./css_reset";
+//? --- BASE
+@import "./base/CSS_reset";
 
-@import "./_import_fonts";
-@import "./_colors.scss";
+@import "./base/variables";
+@import "./base/colors";
 
-@import "./generic.scss";
+@import "./base/mixins";
 
-@import "./sections/_header.scss";
-@import "./sections/_hero.scss";
-@import "./sections/_get_started.scss";
-@import "./sections/_footer.scss";
+@import "./base/fonts";
+@import "./base/typography";
 
-body {
-  // padding-top: 64px;
-  // padding-bottom: 120px;
+//? --- UTILITIES
+@import "./utilities/spacing";
+@import "./utilities/visibility";
+@import "./utilities/z-index";
 
-  background-color: $background-color;
-}
+//? --- LAYOUT
+@import "./layout/grid";
+@import "./layout/container";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+//? --- BLOCKS
+@import "./blocks/body";
+
+@import "./blocks/background_wrapper";
+@import "./blocks/icon";
+@import "./blocks/logo";
+
+//? --- SECTIONS
+@import "./sections/get_started";
+@import "./sections/hero";

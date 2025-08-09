@@ -1,0 +1,10 @@
+.wrapper {
+  margin: 0 auto;
+
+  width: 1462px;
+  height: auto;
+
+  &--large {
+    width: 1760px;
+  }
+}
