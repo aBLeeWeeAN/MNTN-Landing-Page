@@ -1,51 +1,7 @@
-.header {
-  //? PADDINGS
-  &--top-64 {
-    padding-top: 64px;
-  }
-
-  &--bottom-198 {
-    padding-bottom: 198px;
-  }
-}
-
 .header-content {
   display: flex;
   flex-direction: row;
 
   justify-content: space-between;
   align-items: center;
-
-  .menu {
-    &__list {
-      display: flex;
-      flex-direction: row;
-
-      list-style: none;
-
-      gap: 40px;
-    }
-
-    &__item {
-    }
-
-    &__link {
-      display: inline-block;
-
-      font-family: "Gilroy", sans-serif;
-      font-weight: $bold;
-      color: $primary-color;
-      font-size: 18px;
-
-      line-height: auto;
-      letter-spacing: 0;
-      text-decoration: none;
-
-      transition: transform ease-in-out 0.1s;
-
-      &:hover {
-        transform: scale(1.1);
-      }
-    }
-  }
 }

@@ -1,42 +1,23 @@
 .hero-content {
-  padding-top: 198px;
-  padding-bottom: 843px;
-
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 
-  .social-networks-links {
-    // left: 0;
-    // top: 0;
+  justify-content: center;
+  align-items: center;
 
-    margin-left: -396px;
+  .page-main-title {
+  }
+
+  &__fixed-elements {
     position: fixed;
-    // margin-top: 0 auto;
-    margin-top: 72px;
+
+    width: 1760px;
+    height: auto;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
-    gap: 26px;
-
-    // &__text-wrapper {
-    //   padding-bottom: 26px;
-    // }
-
-    &__text {
-      font-family: "Gilroy", sans-serif;
-      font-weight: $bold;
-      color: $primary-color;
-      font-size: 18px;
-
-      letter-spacing: 0;
-
-      writing-mode: vertical-lr;
-      text-orientation: mixed;
-    }
   }
 }

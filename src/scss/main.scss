@@ -16,7 +16,7 @@
 
 //? --- LAYOUT
 @import "./layout/grid";
-@import "./layout/container";
+@import "./layout/wrapper";
 
 @import "./layout/header";
 @import "./layout/footer";
@@ -24,10 +24,17 @@
 //? --- BLOCKS
 @import "./blocks/body";
 
-@import "./blocks/background_wrapper";
+@import "./blocks/hero_background";
 @import "./blocks/icon";
-@import "./blocks/logo";
+@import "./blocks/page_navigation";
+@import "./blocks/scrollspy";
+@import "./blocks/social_networks_links";
+@import "./blocks/title";
+
+@import "./blocks/account_btn_link";
+@import "./blocks/logo_btn_link";
+@import "./blocks/scroll_down_btn_link";
 
 //? --- SECTIONS
-@import "./sections/get_started";
 @import "./sections/hero";
+@import "./sections/main_content";
