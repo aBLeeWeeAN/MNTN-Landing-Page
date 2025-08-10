@@ -7,6 +7,8 @@
   gap: 16px;
 
   transform-origin: left;
+
+  will-change: transform;
   transition: transform 0.1s ease-in-out;
 
   &:hover {
