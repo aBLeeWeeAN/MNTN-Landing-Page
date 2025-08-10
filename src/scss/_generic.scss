@@ -1,0 +1,113 @@
+// .link {
+//   // &__text {
+//   //   display: inline-block;
+//   // }
+
+//   &_logo {
+//     font-family: "Chronicle Display", sans-serif;
+//     font-weight: $bold;
+//     color: $weib-color;
+//     font-size: 32px;
+
+//     text-decoration: none;
+
+//     letter-spacing: 1%;
+//   }
+
+//   &_menu-item {
+//     font-family: "Gilroy", sans-serif;
+//     font-weight: $bold;
+//     color: $weib-color;
+//     font-size: 18px;
+
+//     text-decoration: none;
+
+//     letter-spacing: 0;
+//   }
+
+//   &_read-more {
+//     padding-top: 27px;
+
+//     display: flex;
+//     flex-direction: row;
+
+//     align-items: center;
+
+//     gap: 16px;
+
+//     .link__text {
+//       font-family: "Gilroy", sans-serif;
+//       font-weight: $bold;
+//       color: $accent-color;
+//       font-size: 18px;
+
+//       text-transform: lowercase;
+//     }
+//   }
+// }
+
+// .content-block {
+//   padding-bottom: 200px;
+
+//   display: flex;
+//   flex-direction: row;
+
+//   justify-content: space-between;
+//   align-items: center;
+
+//   // &_first-block {
+//   //   padding-top: 843px;
+//   // }
+
+//   &__text-block {
+//     width: 632px;
+//     height: 439px;
+//   }
+
+//   &__block-number {
+//     position: absolute;
+
+//     top: -102.5px;
+//     left: -150px;
+
+//     font-family: "Gilroy", sans-serif;
+//     font-weight: $bold;
+//     color: $weib-color;
+//     font-size: 240px;
+
+//     line-height: 240px;
+//     letter-spacing: 0;
+
+//     text-align: left;
+//     align-content: top;
+
+//     opacity: 10%;
+//   }
+
+//   &__description {
+//     padding-top: 27px;
+
+//     font-family: "Gilroy", sans-serif;
+//     font-weight: $bold;
+//     color: $weib-color;
+//     font-size: 18px;
+
+//     line-height: 32px;
+//     letter-spacing: 0;
+//     text-align: left;
+//   }
+
+//   &__img-block {
+//     width: 566px;
+//     height: 720px;
+
+//     // box-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
+
+//     img {
+//       width: 100%;
+//       height: 100%;
+
+//       object-fit: cover;
+//     }
+//   }
+// }

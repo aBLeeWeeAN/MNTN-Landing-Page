@@ -1,0 +1,13 @@
+css/
+*.css
+*.css.map
+
+*.d.ts
+*.d.ts.map
+
+js/
+*.js
+*.js.map
+
+*.otf
+*.ttf

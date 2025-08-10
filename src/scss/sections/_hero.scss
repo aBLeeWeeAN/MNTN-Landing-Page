@@ -1,0 +1,26 @@
+.hero-content {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  .page-main-title {
+    z-index: 1;
+  }
+
+  &__fixed-elements {
+    position: fixed;
+
+    width: 1760px;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 0;
+  }
+}

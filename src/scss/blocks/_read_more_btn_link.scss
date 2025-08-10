@@ -1,0 +1,27 @@
+.read-more-btn-link {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  gap: 16px;
+
+  transform-origin: left;
+
+  will-change: transform;
+  transition: transform 0.1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.25);
+  }
+
+  &__text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: $bold;
+    color: $accent-color;
+    font-size: 18px;
+
+    line-height: auto;
+    text-transform: lowercase;
+  }
+}

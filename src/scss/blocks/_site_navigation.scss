@@ -1,0 +1,40 @@
+.site-navigation {
+  font-family: "Gilroy", sans-serif;
+
+  line-height: 32px;
+  letter-spacing: 0;
+
+  &__title {
+    font-weight: $bold;
+    font-size: 24px;
+
+    color: $accent-color;
+
+    margin-bottom: 24px;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    font-weight: $medium;
+    font-size: 18px;
+
+    color: $primary-color;
+
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
