@@ -1,3 +1,6 @@
+@use "../base/colors";
+@use "../base/variables";
+
 .footer-content {
   display: flex;
   flex-direction: row;
@@ -21,9 +24,9 @@
         width: 303px;
 
         font-family: "Gilroy", sans-serif;
-        font-weight: $bold;
+        font-weight: variables.$bold;
         font-size: 18px;
-        color: $primary-color;
+        color: colors.$primary-color;
 
         line-height: 32px;
         letter-spacing: 0;

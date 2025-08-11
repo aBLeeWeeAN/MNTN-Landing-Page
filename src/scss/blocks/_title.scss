@@ -1,3 +1,6 @@
+@use "../base/colors";
+@use "../base/variables";
+
 .title {
   margin: 0;
   width: 950px;
@@ -6,8 +9,8 @@
 
   &__text {
     font-family: "Chronicle Display", sans-serif;
-    font-weight: $semibold;
-    color: $primary-color;
+    font-weight: variables.$semibold;
+    color: colors.$primary-color;
     font-size: 88px;
 
     line-height: 100px;
@@ -19,8 +22,8 @@
     padding-left: calc(72px + 32px);
 
     font-family: "Gilroy", sans-serif;
-    font-weight: $extrabold;
-    color: $accent-color;
+    font-weight: variables.$extrabold;
+    color: colors.$accent-color;
     font-size: 18px;
 
     text-align: left;
@@ -41,7 +44,7 @@
       width: 72px;
       height: 2px;
 
-      background-color: $accent-color;
+      background-color: colors.$accent-color;
     }
   }
 

@@ -1,3 +1,6 @@
+@use "../base/colors";
+@use "../base/variables";
+
 .site-navigation {
   font-family: "Gilroy", sans-serif;
 
@@ -5,10 +8,10 @@
   letter-spacing: 0;
 
   &__title {
-    font-weight: $bold;
+    font-weight: variables.$bold;
     font-size: 24px;
 
-    color: $accent-color;
+    color: colors.$accent-color;
 
     margin-bottom: 24px;
   }
@@ -18,10 +21,10 @@
   }
 
   &__item {
-    font-weight: $medium;
+    font-weight: variables.$medium;
     font-size: 18px;
 
-    color: $primary-color;
+    color: colors.$primary-color;
 
     margin-bottom: 16px;
 
@@ -35,6 +38,10 @@
 
     &:hover {
       text-decoration: underline;
+    }
+
+    &:active {
+      text-decoration: none;
     }
   }
 }

@@ -1,6 +1,8 @@
+@use "../base/colors";
+
 body {
-  background-color: $background-color;
-  color: $primary-color;
+  background-color: colors.$background-color;
+  color: colors.$primary-color;
 
   overflow-x: hidden;
   scroll-behavior: smooth;

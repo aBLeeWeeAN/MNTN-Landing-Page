@@ -1,3 +1,6 @@
+@use "../base/colors";
+@use "../base/variables";
+
 .social-networks-links {
   display: flex;
   flex-direction: column;
@@ -6,10 +9,38 @@
 
   gap: 26px;
 
+  &__icon-link {
+    display: block;
+
+    will-change: transform;
+
+    text-align: center;
+    transform-origin: center;
+    transition: transform 0.15s ease-in-out;
+
+    // Ховер-эффект только на устройствах с мышью
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        transform: scale(1.25);
+      }
+
+      &:active {
+        transform: scale(1.15);
+      }
+    }
+
+    // На мобилках / тачах — эффект только при нажатии
+    @media (hover: none) and (pointer: coarse) {
+      &:active {
+        transform: scale(1.15);
+      }
+    }
+  }
+
   &__text {
     font-family: "Gilroy", sans-serif;
-    font-weight: $bold;
-    color: $primary-color;
+    font-weight: variables.$bold;
+    color: colors.$primary-color;
     font-size: 18px;
 
     letter-spacing: 0;

@@ -1,14 +1,17 @@
+@use "../base/colors";
+@use "../base/variables";
+
 .copyright {
   display: block;
 
   font-family: "Gilroy", sans-serif;
-  font-weight: $medium;
+  font-weight: variables.$medium;
   font-size: 18px;
 
   line-height: 32px;
   letter-spacing: 0;
 
-  color: $primary-color;
+  color: colors.$primary-color;
   opacity: 50%;
 
   &__link {

@@ -1,3 +1,5 @@
+@use "../base/colors";
+
 .icon {
   width: auto;
   height: auto;
@@ -17,11 +19,11 @@
 
   //? ICON COLORS
   &--color-primary {
-    color: $primary-color;
+    color: colors.$primary-color;
   }
 
   &--color-accent {
-    color: $accent-color;
+    color: colors.$accent-color;
   }
 
   &--inline {

@@ -1,3 +1,6 @@
+@use "../base/colors";
+@use "../base/variables";
+
 .main-content {
   display: flex;
   flex-direction: row;
@@ -22,9 +25,9 @@
       top: -103px;
 
       font-family: "Gilroy", sans-serif;
-      font-weight: $bold;
+      font-weight: variables.$bold;
       font-size: 240px;
-      color: $primary-color;
+      color: colors.$primary-color;
 
       letter-spacing: 0;
       line-height: 240px;
@@ -55,6 +58,15 @@
   &__image-part {
     width: 566px;
     height: auto;
+
+    transform-origin: center;
+
+    will-change: transform;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   &__paragraph {
@@ -62,8 +74,8 @@
     margin-bottom: 27px;
 
     font-family: "Gilroy", sans-serif;
-    font-weight: $bold;
-    color: $primary-color;
+    font-weight: variables.$bold;
+    color: colors.$primary-color;
     font-size: 18px;
 
     line-height: 32px;

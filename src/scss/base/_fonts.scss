@@ -1,3 +1,5 @@
+@use "variables";
+
 //? --- OFFLINE FONTS
 //? -----------------
 
@@ -5,21 +7,21 @@
 @font-face {
   font-family: "Gilroy";
   src: url("/src/assets/fonts/gilroy/Gilroy-Medium.woff2") format("woff2");
-  font-weight: $medium;
+  font-weight: variables.$medium;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gilroy";
   src: url("/src/assets/fonts/gilroy/Gilroy-Bold.woff2") format("woff2");
-  font-weight: $bold;
+  font-weight: variables.$bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gilroy";
   src: url("/src/assets/fonts/gilroy/Gilroy-ExtraBold.woff2") format("woff2");
-  font-weight: $extrabold;
+  font-weight: variables.$extrabold;
   font-style: normal;
 }
 
@@ -28,7 +30,7 @@
   font-family: "Chronicle Display";
   src: url("/src/assets/fonts/chronicle_display/ChronicleDisplay-Semibold.woff2")
     format("woff2");
-  font-weight: $semibold;
+  font-weight: variables.$semibold;
   font-style: normal;
 }
 
@@ -36,6 +38,6 @@
   font-family: "Chronicle Display";
   src: url("/src/assets/fonts/chronicle_display/ChronicleDisplay-Bold.woff2")
     format("woff2");
-  font-weight: $bold;
+  font-weight: variables.$bold;
   font-style: normal;
 }
