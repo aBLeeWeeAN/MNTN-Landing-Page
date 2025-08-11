@@ -4,6 +4,8 @@ body {
   background-color: colors.$background-color;
   color: colors.$primary-color;
 
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+  overflow-x: auto;
+  overflow-y: scroll;
+
+  // scroll-behavior: smooth;
 }

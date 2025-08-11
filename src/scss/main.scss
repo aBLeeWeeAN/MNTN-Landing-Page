@@ -15,6 +15,9 @@
 @use "utilities/z-index";
 
 //? --- LAYOUT
+@use "layout/html";
+@use "layout/body";
+
 @use "layout/grid";
 @use "layout/wrapper";
 
@@ -22,7 +25,6 @@
 @use "layout/footer";
 
 //? --- BLOCKS
-@use "blocks/body";
 
 @use "blocks/copyright";
 @use "blocks/hero_background";

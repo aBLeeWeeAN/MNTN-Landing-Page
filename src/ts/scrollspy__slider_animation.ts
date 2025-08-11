@@ -18,23 +18,23 @@ function update_scrollspy_progress_top_value(new_top: number) {
 
 scrollspy_links.forEach((link) => {
   link.addEventListener("click", (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     const scrollspy_progress_top_value = parseInt(
       (link as HTMLElement).dataset.topValueForProgressEl || "0",
       10
     );
 
-    console.log(scrollspy_progress_top_value);
+    // console.log(scrollspy_progress_top_value);
     update_scrollspy_progress_top_value(scrollspy_progress_top_value);
 
-    const href = link.getAttribute("href");
-    if (href) {
-      const target = document.querySelector(href);
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth" });
-      }
-    }
+    // const href = link.getAttribute("href");
+    // if (href) {
+    //   const target = document.querySelector(href);
+    //   if (target) {
+    //     target.scrollIntoView({ behavior: "smooth" });
+    //   }
+    // }
   });
 });
 
