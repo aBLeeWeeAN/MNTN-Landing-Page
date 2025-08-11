@@ -7,5 +7,13 @@ body {
   overflow-x: auto;
   overflow-y: scroll;
 
+  section#hero {
+    z-index: 20;
+  }
+
+  section:not(#hero) {
+    z-index: 0;
+  }
+
   // scroll-behavior: smooth;
 }
