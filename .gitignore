@@ -5,8 +5,8 @@ css/
 *.d.ts
 *.d.ts.map
 
-js/
-*.js
+#js/
+#*.js
 *.js.map
 
 *.otf
