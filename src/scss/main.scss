@@ -1,43 +1,43 @@
 //? --- BASE
-@import "./base/CSS_reset";
+@use "base/CSS_reset";
 
-@import "./base/variables";
-@import "./base/colors";
+@use "base/variables";
+@use "base/colors";
 
-@import "./base/mixins";
+@use "base/mixins";
 
-@import "./base/fonts";
-@import "./base/typography";
+@use "base/fonts";
+@use "base/typography";
 
 //? --- UTILITIES
-@import "./utilities/spacing";
-@import "./utilities/visibility";
-@import "./utilities/z-index";
+@use "utilities/spacing";
+@use "utilities/visibility";
+@use "utilities/z-index";
 
 //? --- LAYOUT
-@import "./layout/grid";
-@import "./layout/wrapper";
+@use "layout/grid";
+@use "layout/wrapper";
 
-@import "./layout/header";
-@import "./layout/footer";
+@use "layout/header";
+@use "layout/footer";
 
 //? --- BLOCKS
-@import "./blocks/body";
+@use "blocks/body";
 
-@import "./blocks/copyright";
-@import "./blocks/hero_background";
-@import "./blocks/icon";
-@import "./blocks/page_navigation";
-@import "./blocks/scrollspy";
-@import "./blocks/site_navigation";
-@import "./blocks/social_networks_links";
-@import "./blocks/title";
+@use "blocks/copyright";
+@use "blocks/hero_background";
+@use "blocks/icon";
+@use "blocks/page_navigation";
+@use "blocks/scrollspy";
+@use "blocks/site_navigation";
+@use "blocks/social_networks_links";
+@use "blocks/title";
 
-@import "./blocks/account_btn_link";
-@import "./blocks/logo_btn_link";
-@import "./blocks/scroll_down_btn_link";
-@import "./blocks/read_more_btn_link";
+@use "blocks/account_btn_link";
+@use "blocks/logo_btn_link";
+@use "blocks/scroll_down_btn_link";
+@use "blocks/read_more_btn_link";
 
 //? --- SECTIONS
-@import "./sections/hero";
-@import "./sections/main_content";
+@use "sections/hero";
+@use "sections/main_content";
