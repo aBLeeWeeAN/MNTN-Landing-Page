@@ -1,32 +1,32 @@
 @use "../base/colors";
 
 .icon {
-  width: auto;
-  height: auto;
+    width: auto;
+    height: auto;
 
-  aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1;
 
-  color: inherit;
+    color: inherit;
 
-  //? ICOS SIZES
-  &--20 {
-    width: 20px;
-  }
+    //? ICOS SIZES
+    &--20 {
+        width: 20px;
+    }
 
-  &--24 {
-    width: 24px;
-  }
+    &--24 {
+        width: 24px;
+    }
 
-  //? ICON COLORS
-  &--color-primary {
-    color: colors.$primary-color;
-  }
+    //? ICON COLORS
+    &--color-primary {
+        color: colors.$primary-color;
+    }
 
-  &--color-accent {
-    color: colors.$accent-color;
-  }
+    &--color-accent {
+        color: colors.$accent-color;
+    }
 
-  &--inline {
-    display: inline;
-  }
+    &--inline {
+        display: inline;
+    }
 }

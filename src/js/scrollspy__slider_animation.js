@@ -32,10 +32,8 @@ window.addEventListener("scroll", function () {
     sections.forEach((current_section, current_section_index) => {
         if (current_section &&
             current_scroll_position >= current_section.offsetTop &&
-            current_scroll_position <
-                current_section.offsetTop + current_section.offsetHeight) {
-            const scrollspy_progress_top_value = parseInt(scrollspy_links[current_section_index].dataset
-                .topValueForProgressEl || "0", 10);
+            current_scroll_position < current_section.offsetTop + current_section.offsetHeight) {
+            const scrollspy_progress_top_value = parseInt(scrollspy_links[current_section_index].dataset.topValueForProgressEl || "0", 10);
             update_scrollspy_progress_top_value(scrollspy_progress_top_value);
         }
     });

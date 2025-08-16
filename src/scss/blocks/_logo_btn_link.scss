@@ -2,39 +2,39 @@
 @use "../base/variables";
 
 .logo-btn-link {
-  display: inline-block;
+    display: inline-block;
 
-  font-family: "Chronicle Display", serif;
-  font-weight: variables.$bold;
-  color: colors.$primary-color;
-  font-size: 32px;
+    font-family: "Chronicle Display", serif;
+    font-weight: variables.$bold;
+    color: colors.$primary-color;
+    font-size: 32px;
 
-  text-decoration: none;
-  letter-spacing: 1%;
+    text-decoration: none;
+    letter-spacing: 1%;
 
-  text-align: left;
-  transform-origin: left;
+    text-align: left;
+    transform-origin: left;
 
-  will-change: transform;
-  transition: transform 0.15s ease-in-out;
+    will-change: transform;
+    transition: transform 0.15s ease-in-out;
 
-  cursor: pointer;
+    cursor: pointer;
 
-  // Ховер-эффект только на устройствах с мышью
-  @media (hover: hover) and (pointer: fine) {
-    &:hover {
-      transform: scale(1.25);
+    // Ховер-эффект только на устройствах с мышью
+    @media (hover: hover) and (pointer: fine) {
+        &:hover {
+            transform: scale(1.25);
+        }
+
+        &:active {
+            transform: scale(1.15);
+        }
     }
 
-    &:active {
-      transform: scale(1.15);
+    // На мобилках / тачах — эффект только при нажатии
+    @media (hover: none) and (pointer: coarse) {
+        &:active {
+            transform: scale(1.15);
+        }
     }
-  }
-
-  // На мобилках / тачах — эффект только при нажатии
-  @media (hover: none) and (pointer: coarse) {
-    &:active {
-      transform: scale(1.15);
-    }
-  }
 }

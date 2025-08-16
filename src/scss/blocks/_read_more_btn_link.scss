@@ -2,44 +2,44 @@
 @use "../base/variables";
 
 .read-more-btn-link {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
-  justify-content: start;
-  align-items: center;
+    justify-content: start;
+    align-items: center;
 
-  gap: 16px;
+    column-gap: 16px;
 
-  transform-origin: left;
+    transform-origin: left;
 
-  will-change: transform;
-  transition: transform 0.15s ease-in-out;
+    will-change: transform;
+    transition: transform 0.15s ease-in-out;
 
-  // Ховер-эффект только на устройствах с мышью
-  @media (hover: hover) and (pointer: fine) {
-    &:hover {
-      transform: scale(1.25);
+    // Ховер-эффект только на устройствах с мышью
+    @media (hover: hover) and (pointer: fine) {
+        &:hover {
+            transform: scale(1.25);
+        }
+
+        &:active {
+            transform: scale(1.15);
+        }
     }
 
-    &:active {
-      transform: scale(1.15);
+    // На мобилках / тачах — эффект только при нажатии
+    @media (hover: none) and (pointer: coarse) {
+        &:active {
+            transform: scale(1.15);
+        }
     }
-  }
 
-  // На мобилках / тачах — эффект только при нажатии
-  @media (hover: none) and (pointer: coarse) {
-    &:active {
-      transform: scale(1.15);
+    &__text {
+        font-family: "Gilroy", sans-serif;
+        font-weight: variables.$bold;
+        color: colors.$accent-color;
+        font-size: 18px;
+
+        line-height: auto;
+        text-transform: lowercase;
     }
-  }
-
-  &__text {
-    font-family: "Gilroy", sans-serif;
-    font-weight: variables.$bold;
-    color: colors.$accent-color;
-    font-size: 18px;
-
-    line-height: auto;
-    text-transform: lowercase;
-  }
 }

@@ -1,10 +1,14 @@
 .wrapper {
-  margin: 0 auto;
+    box-sizing: border-box;
+    margin: 0 auto;
 
-  width: 1462px;
-  height: auto;
+    padding: 0 229px;
+    width: calc(1462px + 229px * 2);
+    // max-width: calc(1760px + 80px * 2);
 
-  &--large {
-    width: 1760px;
-  }
+    &--large {
+        padding: 0 80px;
+        width: calc(1760px + 80px * 2);
+        // max-width: calc(1760px + 80px * 2);
+    }
 }
