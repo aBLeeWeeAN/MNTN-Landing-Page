@@ -1,13 +1,11 @@
-css/
-*.css
-*.css.map
+# Ignore CSS files in src/ folder
+src/css/*
 
 *.d.ts
 *.d.ts.map
 
-#js/
-#*.js
-*.js.map
+# Ignore JS files in src/ folder
+src/js/*
 
 *.otf
 *.ttf
